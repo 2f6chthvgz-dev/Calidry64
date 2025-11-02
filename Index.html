@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <title>CalidryBot64 — Catalogue</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <header><h1>CalidryBot64</h1></header>
+
+    <main id="catalog"></main>
+
+    <div id="modal" class="hidden">
+      <div class="modal-content">
+        <button id="close">✕</button>
+        <video id="modal-video" controls playsinline></video>
+        <h2 id="m-name"></h2>
+        <p id="m-desc"></p>
+        <p id="m-price" class="price"></p>
+      </div>
+    </div>
+
+    <nav class="bottom-bar">
+      <button id="catalog-btn">Catalogue</button>
+      <button id="contact-mini">Contact</button>
+    </nav>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
